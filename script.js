@@ -1,3 +1,6 @@
+var userResponse = prompt("Please enter a number to FizzBuzz.");
+var userResponseNum = parseInt(userResponse);
+
 function fizzBuzz(num){
 	var current = 0;
 	for(var i = 1; i <= num; i++, current++){
@@ -13,4 +16,5 @@ function fizzBuzz(num){
 	}	
 }
 
-fizzBuzz(100);
+fizzBuzz(userResponseNum);
+
